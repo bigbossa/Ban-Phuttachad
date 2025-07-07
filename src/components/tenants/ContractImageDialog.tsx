@@ -139,7 +139,7 @@ export default function ContractImageDialog({
   });
 
   try {
-    const response = await axios.post('http://localhost:3000/server/insert_image', {
+    const response = await axios.post('https://api-stripe-ban-phuttachad-dormitory.onrender.com/server/insert_image', {
       tenant_id: tenant.id,
       image: files[0],
     });

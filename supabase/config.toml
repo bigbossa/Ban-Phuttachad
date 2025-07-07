@@ -29,8 +29,8 @@ image_transformation = { enabled = true }
 [auth]
 enabled = true
 port = 54326
-site_url = "http://localhost:3000"
-additional_redirect_urls = ["https://localhost:3000"]
+site_url = "https://api-stripe-ban-phuttachad-dormitory.onrender.com"
+additional_redirect_urls = ["https://api-stripe-ban-phuttachad-dormitory.onrender.com"]
 jwt_expiry = 3600
 refresh_token_rotation_enabled = true
 security_captcha_enabled = false

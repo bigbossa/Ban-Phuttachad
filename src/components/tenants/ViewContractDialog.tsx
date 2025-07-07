@@ -24,8 +24,8 @@ export default function ViewContractDialog({
 
     let isCancelled = false;
     setLoading(true);
-    const pdfUrl = `http://localhost:3000/images/${tenantId}.pdf`;
-    const imageUrl = `http://localhost:3000/images/${tenantId}.jpg`;
+    const pdfUrl = `https://api-stripe-ban-phuttachad-dormitory.onrender.com/images/${tenantId}.pdf`;
+    const imageUrl = `https://api-stripe-ban-phuttachad-dormitory.onrender.com/images/${tenantId}.jpg`;
 
     fetch(pdfUrl, { method: "HEAD" })
       .then((res) => {
